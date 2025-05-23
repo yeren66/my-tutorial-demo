@@ -13,8 +13,6 @@ python:
 # 构建文档的语言（可选）
 build:
   os: ubuntu-22.04
-  tools:
-    python: "3.10"
 
 # 如果需要构建 Markdown、PDF 等格式，可扩展配置如下：
 # formats:
