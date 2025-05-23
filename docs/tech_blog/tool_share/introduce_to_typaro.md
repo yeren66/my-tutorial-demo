@@ -1,6 +1,4 @@
-### 📄 `docs/tech_blog/tool_share/introduce_to_typaro.md`
 
-```markdown
 # Typero 工具简介
 
 Typero 是一款简洁高效的 Markdown 编辑器。
