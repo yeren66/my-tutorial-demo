@@ -2,7 +2,7 @@ version: 2
 
 # 构建类型：使用 Sphinx 构建器
 sphinx:
-  configuration: conf.py
+  configuration: docs/conf.py
 
 # Python 环境设置
 python:
