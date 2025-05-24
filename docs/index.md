@@ -24,7 +24,9 @@ paper_note/*
 :glob:
 :caption: 技术博客
 
-tech_blog/*
+tech_blog/LLM_related/*
+tech_blog/static_analysis_related/*
+tech_blog/tool_share/*
 ```
 
 ---
