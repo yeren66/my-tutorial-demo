@@ -1,71 +1,52 @@
-# 团队教程文档平台
+# 🧠 团队教程文档平台
 
-欢迎访问本团队的知识文档系统。以下是内容总览，涵盖论文写作、技术博客、工具分享与资源资料等。
+欢迎访问本团队文档平台。以下内容将自动包含各分类目录下的所有教程文件。
 
 ---
 
 ## ✍️ 论文类内容
 
-### 📝 写作指南
-
-```{toctree}
+``` {toctree}
 :maxdepth: 1
+:glob:
 :caption: 论文写作
 
-paper_writing/how_to_write_paper
-```
-
-### 📖 阅读笔记
-
-```{toctree}
-:maxdepth: 1
-:caption: 论文笔记
-
-paper_note/reading_paper
+paper_writing/*
+paper_note/*
 ```
 
 ---
 
-## 💻 技术博客分享
+## 💻 技术博客
 
-### 🧰 静态分析
+``` {toctree}
+:maxdepth: 2
+:glob:
+:caption: 技术博客
 
-```{toctree}
-:maxdepth: 1
-:caption: 静态分析技术
-
-tech_blog/static_analysis_related/spoon4java
-```
-
-### 🤖 LLM 应用与研究
-
-```{toctree}
-:maxdepth: 1
-:caption: LLM 相关
-
-tech_blog/LLM_related/ollama4application
-```
-
-### 🔧 工具推荐
-
-```{toctree}
-:maxdepth: 1
-:caption: 工具应用
-
-tech_blog/tool_share/introduce_to_typaro
+tech_blog/*
 ```
 
 ---
 
-## 📚 资源分享（预留）
+## 🔧 工具构建
 
-此部分将涵盖课程资源、往届论文、参考资料等内容。
-
-```{toctree}
+``` {toctree}
 :maxdepth: 1
+:glob:
+:caption: 工具构建
+
+tool_building/*
+```
+
+---
+
+## 📚 资源分享
+
+``` {toctree}
+:maxdepth: 1
+:glob:
 :caption: 资源分享
 
-# resource/courses
-# resource/past_theses
-# resource/references
+resource/*
 ```
