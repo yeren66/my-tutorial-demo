@@ -24,34 +24,33 @@ paper_note/*
 
 ---
 
-## 💻 技术博客
+## 💻 技术类内容
 
 ``` {toctree}
 :maxdepth: 1
 :glob:
 :caption: 技术博客
 
-tech_blog/**/*.md
+tech_blog/*
+```
+
+``` {toctree}
+:maxdepth: 1
+:glob:
+:caption: 工具分享
+
+tool_share/*
 ```
 
 ---
 
-## 🔧 工具构建
+## 📚 资源类内容
 
 ``` {toctree}
 :maxdepth: 1
-:caption: 工具构建
-
-tool_building/*
-```
-
----
-
-## 📚 资源分享
-
-``` {toctree}
-:maxdepth: 1
+:glob:
 :caption: 资源分享
 
 resource/*
 ```
+
