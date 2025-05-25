@@ -1,4 +1,4 @@
-# 🧠 团队教程文档平台
+# iSE文档平台
 
 欢迎访问本团队文档平台。以下内容将自动包含各分类目录下的所有教程文件。
 
@@ -12,6 +12,13 @@
 :caption: 论文写作
 
 paper_writing/*
+```
+
+``` {toctree}
+:maxdepth: 1
+:glob:
+:caption: 论文笔记
+
 paper_note/*
 ```
 
@@ -20,13 +27,11 @@ paper_note/*
 ## 💻 技术博客
 
 ``` {toctree}
-:maxdepth: 2
+:maxdepth: 1
 :glob:
 :caption: 技术博客
 
-tech_blog/LLM_related/*
-tech_blog/static_analysis_related/*
-tech_blog/tool_share/*
+tech_blog/**/*.md
 ```
 
 ---
@@ -35,7 +40,6 @@ tech_blog/tool_share/*
 
 ``` {toctree}
 :maxdepth: 1
-:glob:
 :caption: 工具构建
 
 tool_building/*
@@ -47,7 +51,6 @@ tool_building/*
 
 ``` {toctree}
 :maxdepth: 1
-:glob:
 :caption: 资源分享
 
 resource/*
