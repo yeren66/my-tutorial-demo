@@ -9,6 +9,7 @@
 ``` {toctree}
 :maxdepth: 1
 :glob:
+:titlesonly:
 :caption: 论文写作
 
 paper_writing/*
@@ -17,6 +18,7 @@ paper_writing/*
 ``` {toctree}
 :maxdepth: 1
 :glob:
+:titlesonly:
 :caption: 论文笔记
 
 paper_note/*
@@ -29,6 +31,7 @@ paper_note/*
 ``` {toctree}
 :maxdepth: 1
 :glob:
+:titlesonly:
 :caption: 技术博客
 
 tech_blog/*
@@ -49,6 +52,7 @@ tool_share/*
 ``` {toctree}
 :maxdepth: 1
 :glob:
+:titlesonly:
 :caption: 资源分享
 
 resource/*
