@@ -6,5 +6,5 @@ extensions = ['myst_parser']
 source_suffix = ['.md']
 master_doc = 'index'
 
-html_theme = 'furo'
+html_theme = 'awesome'
 html_static_path = ['_static']
